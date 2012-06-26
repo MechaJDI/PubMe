@@ -1,0 +1,30 @@
+1. Interface layout
+2.Button workings
+3. game system
+4. Database
+
+**IMPORTANT**
+
+THIS DOES NOT NEED TO WORK LIKE A REAL RETAIL APPLICATION
+
+Game system example:
+10 points for tweet
+10 points for viewing event on map
+50 points for buying ticket
+20 points for completing profile info
+
+Key to keeping twitter credentials lies in accessToken
+
+Enhanced back button functionality:
+keep track of "page" variable, home = page 0, menu = page 1
+Back button reverts to whatever screen assigned to number - 1
+
+
+Change geopoint output and popup window
+
+Database stores ---> event info, ticket info, prize info
+
+Information to store:
+user
+
+Check for name input on first screen, 140 character limit for tweet (see what happens otherwise)

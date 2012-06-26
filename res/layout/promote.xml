@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_marginTop="26dp" android:text="@string/promote"></TextView>
+    <EditText android:inputType="textMultiLine" android:layout_height="250dp" android:layout_width="match_parent" android:layout_below="@+id/textView1" android:layout_alignParentLeft="true" android:layout_marginTop="22dp" android:id="@+id/promoteBox"></EditText>
+    <Button android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:layout_width="match_parent" android:id="@+id/backButton" android:text="@string/back" android:onClick="buttonAction"></Button>
+
+    <EditText
+        android:id="@+id/verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/promoteBox"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/authButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/backButton"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:onClick="buttonAction"
+        android:text="@string/auhtorize" />
+
+    <Button
+        android:id="@+id/tweetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/backButton"
+        android:layout_alignRight="@+id/textView1"
+        android:onClick="buttonAction"
+        android:text="@string/tweet" />
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tweetButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="buttonAction"
+        android:text="@string/signIn" />
+
+    <Button
+        android:id="@+id/fbButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tweetButton"
+        android:layout_alignRight="@+id/tweetButton"
+        android:onClick="buttonAction"
+        android:text="@string/fbit"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/fbSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/signIn"
+        android:layout_alignLeft="@+id/signIn"
+        android:onClick="buttonAction"
+        android:text="@string/signIn"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/fbAuthButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/fbSignIn"
+        android:layout_alignBottom="@+id/fbSignIn"
+        android:layout_alignLeft="@+id/authButton"
+        android:onClick="buttonAction"
+        android:text="@string/auhtorize"
+        android:visibility="invisible" />
+    
+</RelativeLayout>

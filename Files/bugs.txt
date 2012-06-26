@@ -1,0 +1,4 @@
+*switches back to menu layout when orientation switched
+*clicking map icon doesn't display info, crashes
+*back button (on phone) goes to home, back button goes to main menu rather than up one screen
+*tweeting nonworking and for one account

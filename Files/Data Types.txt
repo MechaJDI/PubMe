@@ -1,0 +1,43 @@
+Organize by first character alphabetically/numerically
+ie. [A,B,C,D,E,F...9] with linked list within
+ID randomly assigned and/or taken from database
+
+User: 
+ID	int
+name	string
+password	string
+email	string
+address	string
+city	string
+state	string
+zipcode	int
+creditcard	creditCardInfo // not yet implemented
+twitterInfo twitterFunctions
+
+Event:
+ID	int
+name	string
+description	string
+address	string
+location	geoPoint
+ticket Ticket // not yet implemented
+host	string
+
+Ticket:
+ID int
+price	int  // consider other data type
+vendor	string
+
+Prize:
+price	int
+description	string
+
+//consider criteria for setting values in methods based on data structure ie. address must be certain length, vendor name must not be blank
+
+Databases
+-users
+-events
+-tickets
+-prizes
+
+

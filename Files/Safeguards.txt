@@ -1,0 +1,8 @@
+without filling out account info, disallow:
+-social media posting
+-prize redemption 
+-ticket purchase
+
+limit amount of characters/length for:
+-personal info fields
+-tweets

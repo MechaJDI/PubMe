@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_marginLeft="47dp" android:layout_marginTop="170dp" android:onClick="buttonAction" android:text="@string/event1" android:id="@+id/eventButton1"></Button>
+    <Button android:id="@+id/eventButton3" android:layout_height="wrap_content" android:onClick="buttonAction" android:layout_width="wrap_content" android:text="@string/event3" android:layout_alignBottom="@+id/eventButton1" android:layout_alignParentRight="true" android:layout_marginRight="46dp" android:layout_marginBottom="55dp"></Button>
+    <Button android:id="@+id/eventButton2" android:layout_height="wrap_content" android:onClick="buttonAction" android:layout_width="wrap_content" android:text="@string/event2" android:layout_above="@+id/eventButton3" android:layout_toLeftOf="@+id/eventButton3" android:layout_marginRight="41dp"></Button>
+    <Button android:layout_height="wrap_content" android:text="@string/back" android:layout_width="match_parent" android:onClick="buttonAction" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:id="@+id/backButton"></Button>
+    
+</RelativeLayout>

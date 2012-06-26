@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1037,777" id="com.PubMe" metadata="uml2-1.0" initialized="true" scrolledY="104" tag="10" key="32303037303533312D3130205075624D65">
+  <children xsi:type="editmodel:ClassEditModel" name="DatabaseFunctions" location="90,375" size="162,67" id="com.PubMe/DatabaseFunctions" runTimeClassModel="DatabaseFunctions()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,18">
+      <children xsi:type="editmodel:MethodEditModel" name="DatabaseFunctions" id="com.PubMe/DatabaseFunctions#DatabaseFunctions()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.PubMe/Ticket@ticket+com.PubMe/DatabaseFunctions@databaseFunctions" source="//@children.0" target="//@children.6" targetEnd="//@children.0/@sourceConnections.0/@children.1" label="//@children.0/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="databaseFunctions" location="47,67" id="com.PubMe/Ticket@ticket+com.PubMe/DatabaseFunctions@databaseFunctions|com.PubMe/DatabaseFunctions#databaseFunctions" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.0/@sourceConnections.0/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - databaseFunctions" location="144,449" size="102,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="112,449" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ticket" location="62,0" id="com.PubMe/Ticket@ticket+com.PubMe/DatabaseFunctions@databaseFunctions|com.PubMe/Ticket#ticket" multiplicityLabel="//@children.0/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.0/@sourceConnections.0/@children.1/@children.0" aggregationKind="Aggregration" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - ticket" location="144,504" size="35,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="112,504" size="18,14" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.PubMe/Event@event+com.PubMe/DatabaseFunctions@databaseFunctions" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.1/@children.1" label="//@children.0/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="databaseFunctions" location="148,67" id="com.PubMe/Event@event+com.PubMe/DatabaseFunctions@databaseFunctions|com.PubMe/DatabaseFunctions#databaseFunctions" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.0/@sourceConnections.1/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - databaseFunctions" location="245,449" size="102,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="213,449" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="event" location="13,0" id="com.PubMe/Event@event+com.PubMe/DatabaseFunctions@databaseFunctions|com.PubMe/Event#event" multiplicityLabel="//@children.0/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.0/@sourceConnections.1/@children.1/@children.0" aggregationKind="Aggregration" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - event" location="245,504" size="37,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="213,504" size="18,14" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.PubMe/MappingActivity@mappingActivity+com.PubMe/DatabaseFunctions@databaseFunctions" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.2/@children.1" label="//@children.0/@sourceConnections.2/@children.2" sourceEnd="//@children.0/@sourceConnections.2/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="databaseFunctions" location="162,10" id="com.PubMe/MappingActivity@mappingActivity+com.PubMe/DatabaseFunctions@databaseFunctions|com.PubMe/DatabaseFunctions#databaseFunctions" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.2/@children.0/@children.1" roleLabel="//@children.0/@sourceConnections.2/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - databaseFunctions" location="259,392" size="102,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="259,364" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="mappingActivity" location="10,157" id="com.PubMe/MappingActivity@mappingActivity+com.PubMe/DatabaseFunctions@databaseFunctions|com.PubMe/MappingActivity#mappingActivity" multiplicityLabel="//@children.0/@sourceConnections.2/@children.1/@children.1" roleLabel="//@children.0/@sourceConnections.2/@children.1/@children.0" aggregationKind="Aggregration" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - mappingActivity" location="317,224" size="86,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="285,224" size="18,14" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1" name="Event" location="225,525" size="129,265" id="com.PubMe/Event" runTimeClassModel="id,setAddress(Ljava.lang.String;),host,Event(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Lcom.google.android.maps.GeoPoint;Ljava.lang.String;),setName(Ljava.lang.String;),address,description,setLocation(Lcom.google.android.maps.GeoPoint;),name,setDescription(Ljava.lang.String;),setHost(Ljava.lang.String;),setId(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="address" id="com.PubMe/Event#address"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="description" id="com.PubMe/Event#description"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="host" id="com.PubMe/Event#host"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="com.PubMe/Event#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="com.PubMe/Event#name"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="99,126">
+      <children xsi:type="editmodel:MethodEditModel" name="Event" id="com.PubMe/Event#Event(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Lcom.google.android.maps.GeoPoint;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAddress" id="com.PubMe/Event#setAddress(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDescription" id="com.PubMe/Event#setDescription(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setHost" id="com.PubMe/Event#setHost(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setId" id="com.PubMe/Event#setId(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLocation" id="com.PubMe/Event#setLocation(Lcom.google.android.maps.GeoPoint;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setName" id="com.PubMe/Event#setName(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.1" name="FacebookFunctions" location="600,510" size="165,139" id="com.PubMe/FacebookFunctions" runTimeClassModel="tweet(Ljava.lang.String;),signIn(Ljava.lang.String;),authorize(),FacebookFunctions(),code">
+    <children xsi:type="editmodel:CompartmentEditModel" size="77,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="code" id="com.PubMe/FacebookFunctions#code"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,72">
+      <children xsi:type="editmodel:MethodEditModel" name="FacebookFunctions" id="com.PubMe/FacebookFunctions#FacebookFunctions()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="authorize" id="com.PubMe/FacebookFunctions#authorize()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="signIn" id="com.PubMe/FacebookFunctions#signIn(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tweet" id="com.PubMe/FacebookFunctions#tweet(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="ItemizedMapOverlay" location="735,45" size="173,139" id="com.PubMe/ItemizedMapOverlay" runTimeClassModel="onTap(I),addOverlay(Lcom.google.android.maps.OverlayItem;),ItemizedMapOverlay(Landroid.graphics.drawable.Drawable;Landroid.content.Context;),createItem(I),size()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="127,90">
+      <children xsi:type="editmodel:MethodEditModel" name="ItemizedMapOverlay" id="com.PubMe/ItemizedMapOverlay#ItemizedMapOverlay(Landroid.graphics.drawable.Drawable;Landroid.content.Context;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addOverlay" id="com.PubMe/ItemizedMapOverlay#addOverlay(Lcom.google.android.maps.OverlayItem;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createItem" id="com.PubMe/ItemizedMapOverlay#createItem(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onTap" id="com.PubMe/ItemizedMapOverlay#onTap(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="size" id="com.PubMe/ItemizedMapOverlay#size()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.2" name="MappingActivity" location="300,60" size="179,157" id="com.PubMe/MappingActivity" runTimeClassModel="pointInfo,mapOverlays,populatePoints(),onCreate(Landroid.os.Bundle;),generateGeoPoint(Ljava.lang.String;),number">
+    <children xsi:type="editmodel:CompartmentEditModel" size="156,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="mapOverlays" id="com.PubMe/MappingActivity#mapOverlays"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="number" id="com.PubMe/MappingActivity#number"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pointInfo" id="com.PubMe/MappingActivity#pointInfo"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,54">
+      <children xsi:type="editmodel:MethodEditModel" name="generateGeoPoint" id="com.PubMe/MappingActivity#generateGeoPoint(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" id="com.PubMe/MappingActivity#onCreate(Landroid.os.Bundle;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="populatePoints" id="com.PubMe/MappingActivity#populatePoints()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.PubMe/ItemizedMapOverlay@itemizedMapOverlay+com.PubMe/MappingActivity@mappingActivity" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.0/@children.1" label="//@children.4/@sourceConnections.0/@children.2" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="mappingActivity" location="179,61" id="com.PubMe/ItemizedMapOverlay@itemizedMapOverlay+com.PubMe/MappingActivity@mappingActivity|com.PubMe/MappingActivity#mappingActivity" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.4/@sourceConnections.0/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - mappingActivity" location="486,100" size="86,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="486,128" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="itemizedMapOverlay" location="0,76" id="com.PubMe/ItemizedMapOverlay@itemizedMapOverlay+com.PubMe/MappingActivity@mappingActivity|com.PubMe/ItemizedMapOverlay#itemizedMapOverlay" multiplicityLabel="//@children.4/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.4/@sourceConnections.0/@children.1/@children.0" aggregationKind="Aggregration" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - itemizedMapOverlay" location="621,100" size="107,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="710,128" size="18,14" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.0" name="PubMeActivity" location="39,75" size="132,175" id="com.PubMe/PubMeActivity" runTimeClassModel="save(),load(),buttonAction(Landroid.view.View;),onCreate(Landroid.os.Bundle;),createDialog(Ljava.lang.String;Ljava.lang.String;),fileName,viewMap()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="fileName" id="com.PubMe/PubMeActivity#fileName"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="91,108">
+      <children xsi:type="editmodel:MethodEditModel" name="buttonAction" id="com.PubMe/PubMeActivity#buttonAction(Landroid.view.View;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createDialog" id="com.PubMe/PubMeActivity#createDialog(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="load" id="com.PubMe/PubMeActivity#load()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" id="com.PubMe/PubMeActivity#onCreate(Landroid.os.Bundle;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="save" id="com.PubMe/PubMeActivity#save()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="viewMap" id="com.PubMe/PubMeActivity#viewMap()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.PubMe/TwitterFunctions@twitterFunctions+com.PubMe/PubMeActivity@pubMeActivity" source="//@children.5" target="//@children.7" targetEnd="//@children.5/@sourceConnections.0/@children.1" label="//@children.5/@sourceConnections.0/@children.2" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="pubMeActivity" location="132,165" id="com.PubMe/TwitterFunctions@twitterFunctions+com.PubMe/PubMeActivity@pubMeActivity|com.PubMe/PubMeActivity#pubMeActivity" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.5/@sourceConnections.0/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - pubMeActivity" location="178,219" size="78,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="178,247" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="twitterFunctions" location="10,0" id="com.PubMe/TwitterFunctions@twitterFunctions+com.PubMe/PubMeActivity@pubMeActivity|com.PubMe/TwitterFunctions#twitterFunctions" multiplicityLabel="//@children.5/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.5/@sourceConnections.0/@children.1/@children.0" aggregationKind="Aggregration" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - twitterFunctions" location="439,504" size="88,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="407,504" size="18,14" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.PubMe/FacebookFunctions@facebookFunctions+com.PubMe/PubMeActivity@pubMeActivity" source="//@children.5" target="//@children.2" targetEnd="//@children.5/@sourceConnections.1/@children.1" label="//@children.5/@sourceConnections.1/@children.2" sourceEnd="//@children.5/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="pubMeActivity" location="132,165" id="com.PubMe/FacebookFunctions@facebookFunctions+com.PubMe/PubMeActivity@pubMeActivity|com.PubMe/PubMeActivity#pubMeActivity" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.5/@sourceConnections.1/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - pubMeActivity" location="178,219" size="78,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="178,247" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="facebookFunctions" location="10,0" id="com.PubMe/FacebookFunctions@facebookFunctions+com.PubMe/PubMeActivity@pubMeActivity|com.PubMe/FacebookFunctions#facebookFunctions" multiplicityLabel="//@children.5/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.5/@sourceConnections.1/@children.1/@children.0" aggregationKind="Aggregration" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - facebookFunctions" location="617,489" size="102,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="585,489" size="18,14" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="Ticket" location="75,525" size="110,175" id="com.PubMe/Ticket" runTimeClassModel="id,setVendor(Ljava.lang.String;),Ticket(ILjava.lang.String;Ljava.lang.String;),setPrice(Ljava.lang.String;),price,vendor,setId(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="87,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="com.PubMe/Ticket#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="price" id="com.PubMe/Ticket#price"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vendor" id="com.PubMe/Ticket#vendor"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="80,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Ticket" id="com.PubMe/Ticket#Ticket(ILjava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setId" id="com.PubMe/Ticket#setId(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPrice" id="com.PubMe/Ticket#setPrice(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setVendor" id="com.PubMe/Ticket#setVendor(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0" name="TwitterFunctions" location="422,525" size="146,139" id="com.PubMe/TwitterFunctions" runTimeClassModel="tweet(Ljava.lang.String;),TwitterFunctions(),authorize(),signIn(Ljava.lang.String;),code">
+    <children xsi:type="editmodel:CompartmentEditModel" size="77,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="code" id="com.PubMe/TwitterFunctions#code"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,72">
+      <children xsi:type="editmodel:MethodEditModel" name="TwitterFunctions" id="com.PubMe/TwitterFunctions#TwitterFunctions()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="authorize" id="com.PubMe/TwitterFunctions#authorize()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="signIn" id="com.PubMe/TwitterFunctions#signIn(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tweet" id="com.PubMe/TwitterFunctions#tweet(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="User" location="782,195" size="126,391" id="com.PubMe/User" runTimeClassModel="setAddress(Ljava.lang.String;),setName(Ljava.lang.String;),setEmail(Ljava.lang.String;),zipcode,state,password,setId(I),User(Ljava.lang.String;Ljava.lang.String;),setCity(Ljava.lang.String;),city,id,setState(Ljava.lang.String;),setPassword(Ljava.lang.String;),setTwitterInfo(Lcom.PubMe.TwitterFunctions;),address,email,name,getFullAddress(),setZipcode(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,144">
+      <children xsi:type="editmodel:AttributeEditModel" name="address" id="com.PubMe/User#address"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="city" id="com.PubMe/User#city"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="email" id="com.PubMe/User#email"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="com.PubMe/User#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="com.PubMe/User#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="password" id="com.PubMe/User#password"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="state" id="com.PubMe/User#state"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="zipcode" id="com.PubMe/User#zipcode"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,198">
+      <children xsi:type="editmodel:MethodEditModel" name="User" id="com.PubMe/User#User(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFullAddress" id="com.PubMe/User#getFullAddress()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAddress" id="com.PubMe/User#setAddress(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCity" id="com.PubMe/User#setCity(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setEmail" id="com.PubMe/User#setEmail(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setId" id="com.PubMe/User#setId(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setName" id="com.PubMe/User#setName(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPassword" id="com.PubMe/User#setPassword(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setState" id="com.PubMe/User#setState(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTwitterInfo" id="com.PubMe/User#setTwitterInfo(Lcom.PubMe.TwitterFunctions;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setZipcode" id="com.PubMe/User#setZipcode(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.PubMe/PubMeActivity@pubMeActivity+com.PubMe/User@user" source="//@children.8" target="//@children.5" targetEnd="//@children.8/@sourceConnections.0/@children.1" label="//@children.8/@sourceConnections.0/@children.2" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="user" location="0,27" id="com.PubMe/PubMeActivity@pubMeActivity+com.PubMe/User@user|com.PubMe/User#user" attachSource="true" multiplicityLabel="//@children.8/@sourceConnections.0/@children.0/@children.1" roleLabel="//@children.8/@sourceConnections.0/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - user" location="743,201" size="32,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="757,229" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="pubMeActivity" location="132,147" id="com.PubMe/PubMeActivity@pubMeActivity+com.PubMe/User@user|com.PubMe/PubMeActivity#pubMeActivity" multiplicityLabel="//@children.8/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.8/@sourceConnections.0/@children.1/@children.0" aggregationKind="Aggregration" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - pubMeActivity" location="178,201" size="78,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="178,229" size="18,14" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

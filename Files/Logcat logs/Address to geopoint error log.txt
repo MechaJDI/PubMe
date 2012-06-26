@@ -1,0 +1,369 @@
+02-29 19:20:00.871: D/dalvikvm(306): GC_FOR_MALLOC freed 5377 objects / 380344 bytes in 136ms
+02-29 19:20:04.591: D/dalvikvm(306): GC_FOR_MALLOC freed 7325 objects / 394464 bytes in 54ms
+02-29 19:20:04.791: D/dalvikvm(306): GC_FOR_MALLOC freed 9610 objects / 610544 bytes in 52ms
+02-29 19:20:04.951: D/dalvikvm(306): GC_FOR_MALLOC freed 4273 objects / 278824 bytes in 49ms
+02-29 19:20:05.131: D/dalvikvm(306): GC_FOR_MALLOC freed 8578 objects / 491600 bytes in 52ms
+02-29 19:20:05.321: D/dalvikvm(306): GC_FOR_MALLOC freed 8230 objects / 634560 bytes in 52ms
+02-29 19:20:05.491: D/dalvikvm(306): GC_FOR_MALLOC freed 6070 objects / 370248 bytes in 53ms
+02-29 19:20:05.580: W/System.err(306): java.io.IOException: Service not Available
+02-29 19:20:05.592: W/System.err(306): 	at android.location.Geocoder.getFromLocationName(Geocoder.java:159)
+02-29 19:20:05.592: W/System.err(306): 	at com.PubMe.MappingActivity.generateGeoPoint(MappingActivity.java:109)
+02-29 19:20:05.592: W/System.err(306): 	at com.PubMe.MappingActivity.onCreate(MappingActivity.java:58)
+02-29 19:20:05.592: W/System.err(306): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)
+02-29 19:20:05.601: W/System.err(306): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2627)
+02-29 19:20:05.601: W/System.err(306): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2679)
+02-29 19:20:05.601: W/System.err(306): 	at android.app.ActivityThread.access$2300(ActivityThread.java:125)
+02-29 19:20:05.601: W/System.err(306): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2033)
+02-29 19:20:05.601: W/System.err(306): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+02-29 19:20:05.601: W/System.err(306): 	at android.os.Looper.loop(Looper.java:123)
+02-29 19:20:05.601: W/System.err(306): 	at android.app.ActivityThread.main(ActivityThread.java:4627)
+02-29 19:20:05.601: W/System.err(306): 	at java.lang.reflect.Method.invokeNative(Native Method)
+02-29 19:20:05.601: W/System.err(306): 	at java.lang.reflect.Method.invoke(Method.java:521)
+02-29 19:20:05.601: W/System.err(306): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868)
+02-29 19:20:05.601: W/System.err(306): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)
+02-29 19:20:05.601: W/System.err(306): 	at dalvik.system.NativeStart.main(Native Method)
+02-29 19:20:05.651: I/MapActivity(306): Handling network change notification:CONNECTED
+02-29 19:20:05.651: E/MapActivity(306): Couldn't get connection factory client
+02-29 19:20:08.121: D/dalvikvm(306): GC_FOR_MALLOC freed 13139 objects / 920656 bytes in 53ms
+02-29 19:20:11.110: D/dalvikvm(306): GC_FOR_MALLOC freed 2326 objects / 302304 bytes in 46ms
+02-29 19:20:14.671: D/dalvikvm(306): GC_FOR_MALLOC freed 2564 objects / 340912 bytes in 47ms
+02-29 19:20:18.101: D/dalvikvm(306): GC_FOR_MALLOC freed 2571 objects / 341072 bytes in 46ms
+02-29 19:20:21.551: D/dalvikvm(306): GC_FOR_MALLOC freed 2570 objects / 341160 bytes in 47ms
+02-29 19:20:53.931: D/dalvikvm(306): GC_FOR_MALLOC freed 2570 objects / 341272 bytes in 49ms
+02-29 19:22:11.711: W/KeyCharacterMap(306): No keyboard for id 0
+02-29 19:22:11.711: W/KeyCharacterMap(306): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+02-29 19:22:13.371: W/System.err(306): java.lang.IllegalStateException: Connection pool shut down.
+02-29 19:22:13.371: W/System.err(306): 	at org.apache.http.impl.conn.tsccm.ConnPoolByRoute.getEntryBlocking(ConnPoolByRoute.java:284)
+02-29 19:22:13.371: W/System.err(306): 	at org.apache.http.impl.conn.tsccm.ConnPoolByRoute$1.getPoolEntry(ConnPoolByRoute.java:238)
+02-29 19:22:13.371: W/System.err(306): 	at org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager$1.getConnection(ThreadSafeClientConnManager.java:175)
+02-29 19:22:13.371: W/System.err(306): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:325)
+02-29 19:22:13.371: W/System.err(306): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+02-29 19:22:13.371: W/System.err(306): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+02-29 19:22:13.371: W/System.err(306): 	at com.google.common.io.android.AndroidHttpClient.execute(Unknown Source)
+02-29 19:22:13.371: W/System.err(306): 	at com.google.common.io.android.GoogleHttpClient.executeWithoutRewriting(Unknown Source)
+02-29 19:22:13.371: W/System.err(306): 	at com.google.common.io.android.GoogleHttpClient.execute(Unknown Source)
+02-29 19:22:13.371: W/System.err(306): 	at com.google.common.io.android.GoogleHttpClient.execute(Unknown Source)
+02-29 19:22:13.371: W/System.err(306): 	at com.google.common.io.android.AndroidHttpConnectionFactory$AndroidGoogleHttpConnection.getResponse(Unknown Source)
+02-29 19:22:13.371: W/System.err(306): 	at com.google.common.io.android.AndroidHttpConnectionFactory$AndroidGoogleHttpConnection.openDataInputStream(Unknown Source)
+02-29 19:22:13.381: W/System.err(306): 	at com.google.googlenav.datarequest.DataRequestDispatcher.serviceRequests(Unknown Source)
+02-29 19:22:13.381: W/System.err(306): 	at com.google.googlenav.datarequest.DataRequestDispatcher$DispatcherServer.run(Unknown Source)
+02-29 19:22:13.381: W/System.err(306): 	at java.lang.Thread.run(Thread.java:1096)
+02-29 19:22:13.861: W/MapActivity(306): Recycling dispatcher com.google.googlenav.datarequest.DataRequestDispatcher@44f29ef8
+02-29 19:22:13.872: V/MapActivity(306): Recycling map object.
+02-29 19:22:13.911: W/System.err(306): java.io.IOException: Service not Available
+02-29 19:22:13.911: W/System.err(306): 	at android.location.Geocoder.getFromLocationName(Geocoder.java:159)
+02-29 19:22:13.911: W/System.err(306): 	at com.PubMe.MappingActivity.generateGeoPoint(MappingActivity.java:109)
+02-29 19:22:13.911: W/System.err(306): 	at com.PubMe.MappingActivity.onCreate(MappingActivity.java:58)
+02-29 19:22:13.911: W/System.err(306): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)
+02-29 19:22:13.911: W/System.err(306): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2627)
+02-29 19:22:13.911: W/System.err(306): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2679)
+02-29 19:22:13.921: W/System.err(306): 	at android.app.ActivityThread.access$2300(ActivityThread.java:125)
+02-29 19:22:13.921: W/System.err(306): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2033)
+02-29 19:22:13.921: W/System.err(306): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+02-29 19:22:13.921: W/System.err(306): 	at android.os.Looper.loop(Looper.java:123)
+02-29 19:22:13.921: W/System.err(306): 	at android.app.ActivityThread.main(ActivityThread.java:4627)
+02-29 19:22:13.921: W/System.err(306): 	at java.lang.reflect.Method.invokeNative(Native Method)
+02-29 19:22:13.921: W/System.err(306): 	at java.lang.reflect.Method.invoke(Method.java:521)
+02-29 19:22:13.921: W/System.err(306): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868)
+02-29 19:22:13.931: W/System.err(306): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)
+02-29 19:22:13.931: W/System.err(306): 	at dalvik.system.NativeStart.main(Native Method)
+02-29 19:22:13.981: I/MapActivity(306): Handling network change notification:CONNECTED
+02-29 19:22:13.981: E/MapActivity(306): Couldn't get connection factory client
+02-29 19:22:47.470: D/dalvikvm(306): GC_EXPLICIT freed 3263 objects / 308440 bytes in 58ms
+02-29 19:23:39.671: D/dalvikvm(367): GC_FOR_MALLOC freed 5203 objects / 373688 bytes in 65ms
+02-29 19:23:43.741: D/dalvikvm(367): GC_FOR_MALLOC freed 7185 objects / 387936 bytes in 56ms
+02-29 19:23:43.921: D/dalvikvm(367): GC_FOR_MALLOC freed 11790 objects / 706496 bytes in 50ms
+02-29 19:23:44.071: D/dalvikvm(367): GC_FOR_MALLOC freed 4204 objects / 274424 bytes in 49ms
+02-29 19:23:44.241: D/dalvikvm(367): GC_FOR_MALLOC freed 5978 objects / 369416 bytes in 51ms
+02-29 19:23:44.431: D/dalvikvm(367): GC_FOR_MALLOC freed 11692 objects / 816328 bytes in 51ms
+02-29 19:23:44.601: D/dalvikvm(367): GC_FOR_MALLOC freed 6155 objects / 371664 bytes in 49ms
+02-29 19:23:44.691: W/System.err(367): java.io.IOException: Service not Available
+02-29 19:23:44.691: W/System.err(367): 	at android.location.Geocoder.getFromLocationName(Geocoder.java:159)
+02-29 19:23:44.691: W/System.err(367): 	at com.PubMe.MappingActivity.generateGeoPoint(MappingActivity.java:109)
+02-29 19:23:44.691: W/System.err(367): 	at com.PubMe.MappingActivity.onCreate(MappingActivity.java:58)
+02-29 19:23:44.691: W/System.err(367): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)
+02-29 19:23:44.691: W/System.err(367): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2627)
+02-29 19:23:44.691: W/System.err(367): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2679)
+02-29 19:23:44.691: W/System.err(367): 	at android.app.ActivityThread.access$2300(ActivityThread.java:125)
+02-29 19:23:44.701: W/System.err(367): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2033)
+02-29 19:23:44.701: W/System.err(367): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+02-29 19:23:44.701: W/System.err(367): 	at android.os.Looper.loop(Looper.java:123)
+02-29 19:23:44.701: W/System.err(367): 	at android.app.ActivityThread.main(ActivityThread.java:4627)
+02-29 19:23:44.701: W/System.err(367): 	at java.lang.reflect.Method.invokeNative(Native Method)
+02-29 19:23:44.701: W/System.err(367): 	at java.lang.reflect.Method.invoke(Method.java:521)
+02-29 19:23:44.701: W/System.err(367): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868)
+02-29 19:23:44.701: W/System.err(367): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)
+02-29 19:23:44.701: W/System.err(367): 	at dalvik.system.NativeStart.main(Native Method)
+02-29 19:23:44.751: I/MapActivity(367): Handling network change notification:CONNECTED
+02-29 19:23:44.751: E/MapActivity(367): Couldn't get connection factory client
+02-29 19:23:46.351: D/dalvikvm(367): GC_FOR_MALLOC freed 6906 objects / 561392 bytes in 53ms
+02-29 19:23:49.721: D/dalvikvm(367): GC_FOR_MALLOC freed 2611 objects / 344064 bytes in 48ms
+02-29 19:23:53.570: D/dalvikvm(367): GC_FOR_MALLOC freed 2885 objects / 383440 bytes in 47ms
+02-29 19:23:57.391: D/dalvikvm(367): GC_FOR_MALLOC freed 2891 objects / 383936 bytes in 47ms
+02-29 19:24:03.141: D/dalvikvm(367): GC_FOR_MALLOC freed 2891 objects / 383840 bytes in 49ms
+02-29 19:25:10.251: D/dalvikvm(367): GC_FOR_MALLOC freed 2892 objects / 384024 bytes in 49ms
+02-29 19:26:57.981: W/KeyCharacterMap(367): No keyboard for id 0
+02-29 19:26:57.981: W/KeyCharacterMap(367): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+02-29 19:26:58.534: W/System.err(367): java.lang.IllegalStateException: Connection pool shut down.
+02-29 19:26:58.534: W/System.err(367): 	at org.apache.http.impl.conn.tsccm.ConnPoolByRoute.getEntryBlocking(ConnPoolByRoute.java:284)
+02-29 19:26:58.534: W/System.err(367): 	at org.apache.http.impl.conn.tsccm.ConnPoolByRoute$1.getPoolEntry(ConnPoolByRoute.java:238)
+02-29 19:26:58.534: W/System.err(367): 	at org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager$1.getConnection(ThreadSafeClientConnManager.java:175)
+02-29 19:26:58.541: W/System.err(367): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:325)
+02-29 19:26:58.541: W/System.err(367): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+02-29 19:26:58.541: W/System.err(367): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+02-29 19:26:58.541: W/System.err(367): 	at com.google.common.io.android.AndroidHttpClient.execute(Unknown Source)
+02-29 19:26:58.541: W/System.err(367): 	at com.google.common.io.android.GoogleHttpClient.executeWithoutRewriting(Unknown Source)
+02-29 19:26:58.541: W/System.err(367): 	at com.google.common.io.android.GoogleHttpClient.execute(Unknown Source)
+02-29 19:26:58.541: W/System.err(367): 	at com.google.common.io.android.GoogleHttpClient.execute(Unknown Source)
+02-29 19:26:58.541: W/System.err(367): 	at com.google.common.io.android.AndroidHttpConnectionFactory$AndroidGoogleHttpConnection.getResponse(Unknown Source)
+02-29 19:26:58.541: W/System.err(367): 	at com.google.common.io.android.AndroidHttpConnectionFactory$AndroidGoogleHttpConnection.openDataInputStream(Unknown Source)
+02-29 19:26:58.541: W/System.err(367): 	at com.google.googlenav.datarequest.DataRequestDispatcher.serviceRequests(Unknown Source)
+02-29 19:26:58.541: W/System.err(367): 	at com.google.googlenav.datarequest.DataRequestDispatcher$DispatcherServer.run(Unknown Source)
+02-29 19:26:58.541: W/System.err(367): 	at java.lang.Thread.run(Thread.java:1096)
+02-29 19:27:05.241: D/dalvikvm(367): GC_EXPLICIT freed 1863 objects / 208640 bytes in 117ms
+02-29 19:28:27.941: D/dalvikvm(399): GC_FOR_MALLOC freed 5227 objects / 374704 bytes in 63ms
+02-29 19:28:31.301: D/dalvikvm(399): GC_FOR_MALLOC freed 7191 objects / 388136 bytes in 55ms
+02-29 19:28:31.491: D/dalvikvm(399): GC_FOR_MALLOC freed 11788 objects / 706368 bytes in 56ms
+02-29 19:28:31.641: D/dalvikvm(399): GC_FOR_MALLOC freed 4206 objects / 274552 bytes in 47ms
+02-29 19:28:31.801: D/dalvikvm(399): GC_FOR_MALLOC freed 5973 objects / 368736 bytes in 49ms
+02-29 19:28:32.001: D/dalvikvm(399): GC_FOR_MALLOC freed 11688 objects / 816136 bytes in 52ms
+02-29 19:28:32.171: D/dalvikvm(399): GC_FOR_MALLOC freed 6156 objects / 371800 bytes in 52ms
+02-29 19:28:32.291: I/MapActivity(399): Handling network change notification:CONNECTED
+02-29 19:28:32.291: E/MapActivity(399): Couldn't get connection factory client
+02-29 19:28:34.250: D/dalvikvm(399): GC_FOR_MALLOC freed 6938 objects / 588056 bytes in 51ms
+02-29 19:28:37.760: D/dalvikvm(399): GC_FOR_MALLOC freed 2641 objects / 344664 bytes in 46ms
+02-29 19:28:41.241: D/dalvikvm(399): GC_FOR_MALLOC freed 2570 objects / 341320 bytes in 52ms
+02-29 19:28:45.301: D/dalvikvm(399): GC_FOR_MALLOC freed 2886 objects / 383600 bytes in 52ms
+02-29 19:28:51.611: W/KeyCharacterMap(399): No keyboard for id 0
+02-29 19:28:51.611: W/KeyCharacterMap(399): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+02-29 19:28:53.481: W/System.err(399): java.lang.IllegalStateException: Connection pool shut down.
+02-29 19:28:53.481: W/System.err(399): 	at org.apache.http.impl.conn.tsccm.ConnPoolByRoute.getEntryBlocking(ConnPoolByRoute.java:284)
+02-29 19:28:53.481: W/System.err(399): 	at org.apache.http.impl.conn.tsccm.ConnPoolByRoute$1.getPoolEntry(ConnPoolByRoute.java:238)
+02-29 19:28:53.481: W/System.err(399): 	at org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager$1.getConnection(ThreadSafeClientConnManager.java:175)
+02-29 19:28:53.481: W/System.err(399): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:325)
+02-29 19:28:53.481: W/System.err(399): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+02-29 19:28:53.481: W/System.err(399): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+02-29 19:28:53.481: W/System.err(399): 	at com.google.common.io.android.AndroidHttpClient.execute(Unknown Source)
+02-29 19:28:53.481: W/System.err(399): 	at com.google.common.io.android.GoogleHttpClient.executeWithoutRewriting(Unknown Source)
+02-29 19:28:53.481: W/System.err(399): 	at com.google.common.io.android.GoogleHttpClient.execute(Unknown Source)
+02-29 19:28:53.481: W/System.err(399): 	at com.google.common.io.android.GoogleHttpClient.execute(Unknown Source)
+02-29 19:28:53.481: W/System.err(399): 	at com.google.common.io.android.AndroidHttpConnectionFactory$AndroidGoogleHttpConnection.getResponse(Unknown Source)
+02-29 19:28:53.491: W/System.err(399): 	at com.google.common.io.android.AndroidHttpConnectionFactory$AndroidGoogleHttpConnection.openDataInputStream(Unknown Source)
+02-29 19:28:53.491: W/System.err(399): 	at com.google.googlenav.datarequest.DataRequestDispatcher.serviceRequests(Unknown Source)
+02-29 19:28:53.491: W/System.err(399): 	at com.google.googlenav.datarequest.DataRequestDispatcher$DispatcherServer.run(Unknown Source)
+02-29 19:28:53.491: W/System.err(399): 	at java.lang.Thread.run(Thread.java:1096)
+02-29 19:29:19.921: D/dalvikvm(432): GC_FOR_MALLOC freed 5244 objects / 375496 bytes in 63ms
+02-29 19:29:23.471: D/dalvikvm(432): GC_FOR_MALLOC freed 6981 objects / 378568 bytes in 55ms
+02-29 19:29:23.661: D/dalvikvm(432): GC_FOR_MALLOC freed 11214 objects / 679776 bytes in 55ms
+02-29 19:29:23.812: D/dalvikvm(432): GC_FOR_MALLOC freed 4097 objects / 268072 bytes in 52ms
+02-29 19:29:23.982: D/dalvikvm(432): GC_FOR_MALLOC freed 7211 objects / 431952 bytes in 52ms
+02-29 19:29:24.171: D/dalvikvm(432): GC_FOR_MALLOC freed 8279 objects / 639480 bytes in 52ms
+02-29 19:29:24.341: D/dalvikvm(432): GC_FOR_MALLOC freed 6120 objects / 369672 bytes in 51ms
+02-29 19:29:24.451: I/MapActivity(432): Handling network change notification:CONNECTED
+02-29 19:29:24.451: E/MapActivity(432): Couldn't get connection factory client
+02-29 19:29:26.731: D/dalvikvm(432): GC_FOR_MALLOC freed 13034 objects / 919328 bytes in 56ms
+02-29 19:29:29.741: D/dalvikvm(432): GC_FOR_MALLOC freed 2324 objects / 302392 bytes in 49ms
+02-29 19:29:33.191: D/dalvikvm(432): GC_FOR_MALLOC freed 2565 objects / 340736 bytes in 45ms
+02-29 19:29:37.041: D/dalvikvm(432): GC_FOR_MALLOC freed 2885 objects / 383448 bytes in 46ms
+02-29 19:29:42.721: D/dalvikvm(432): GC_FOR_MALLOC freed 2891 objects / 383592 bytes in 48ms
+02-29 19:29:49.802: W/KeyCharacterMap(432): No keyboard for id 0
+02-29 19:29:49.802: W/KeyCharacterMap(432): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+02-29 19:29:52.954: W/System.err(432): java.lang.IllegalStateException: Connection pool shut down.
+02-29 19:29:52.954: W/System.err(432): 	at org.apache.http.impl.conn.tsccm.ConnPoolByRoute.getEntryBlocking(ConnPoolByRoute.java:284)
+02-29 19:29:52.954: W/System.err(432): 	at org.apache.http.impl.conn.tsccm.ConnPoolByRoute$1.getPoolEntry(ConnPoolByRoute.java:238)
+02-29 19:29:52.954: W/System.err(432): 	at org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager$1.getConnection(ThreadSafeClientConnManager.java:175)
+02-29 19:29:52.954: W/System.err(432): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:325)
+02-29 19:29:52.954: W/System.err(432): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+02-29 19:29:52.954: W/System.err(432): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+02-29 19:29:52.954: W/System.err(432): 	at com.google.common.io.android.AndroidHttpClient.execute(Unknown Source)
+02-29 19:29:52.954: W/System.err(432): 	at com.google.common.io.android.GoogleHttpClient.executeWithoutRewriting(Unknown Source)
+02-29 19:29:52.954: W/System.err(432): 	at com.google.common.io.android.GoogleHttpClient.execute(Unknown Source)
+02-29 19:29:52.961: W/System.err(432): 	at com.google.common.io.android.GoogleHttpClient.execute(Unknown Source)
+02-29 19:29:52.961: W/System.err(432): 	at com.google.common.io.android.AndroidHttpConnectionFactory$AndroidGoogleHttpConnection.getResponse(Unknown Source)
+02-29 19:29:52.961: W/System.err(432): 	at com.google.common.io.android.AndroidHttpConnectionFactory$AndroidGoogleHttpConnection.openDataInputStream(Unknown Source)
+02-29 19:29:52.961: W/System.err(432): 	at com.google.googlenav.datarequest.DataRequestDispatcher.serviceRequests(Unknown Source)
+02-29 19:29:52.961: W/System.err(432): 	at com.google.googlenav.datarequest.DataRequestDispatcher$DispatcherServer.run(Unknown Source)
+02-29 19:29:52.961: W/System.err(432): 	at java.lang.Thread.run(Thread.java:1096)
+02-29 19:58:20.621: D/dalvikvm(466): GC_FOR_MALLOC freed 5325 objects / 378120 bytes in 71ms
+02-29 19:59:01.471: D/dalvikvm(466): GC_FOR_MALLOC freed 7033 objects / 381008 bytes in 59ms
+02-29 19:59:01.671: D/dalvikvm(466): GC_FOR_MALLOC freed 9631 objects / 611712 bytes in 51ms
+02-29 19:59:01.841: D/dalvikvm(466): GC_FOR_MALLOC freed 4099 objects / 268000 bytes in 51ms
+02-29 19:59:02.041: D/dalvikvm(466): GC_FOR_MALLOC freed 8474 objects / 485088 bytes in 57ms
+02-29 19:59:02.251: D/dalvikvm(466): GC_FOR_MALLOC freed 8135 objects / 630480 bytes in 61ms
+02-29 19:59:02.431: D/dalvikvm(466): GC_FOR_MALLOC freed 6179 objects / 371664 bytes in 58ms
+02-29 19:59:02.571: I/MapActivity(466): Handling network change notification:CONNECTED
+02-29 19:59:02.571: E/MapActivity(466): Couldn't get connection factory client
+02-29 19:59:04.671: D/dalvikvm(466): GC_FOR_MALLOC freed 9505 objects / 709760 bytes in 64ms
+02-29 19:59:07.100: D/dalvikvm(466): GC_FOR_MALLOC freed 1966 objects / 258128 bytes in 53ms
+02-29 19:59:10.162: D/dalvikvm(466): GC_FOR_MALLOC freed 2246 objects / 298112 bytes in 54ms
+02-29 19:59:13.192: D/dalvikvm(466): GC_FOR_MALLOC freed 2257 objects / 298472 bytes in 51ms
+02-29 19:59:16.191: D/dalvikvm(466): GC_FOR_MALLOC freed 2249 objects / 298112 bytes in 61ms
+02-29 19:59:21.076: D/dalvikvm(466): GC_FOR_MALLOC freed 2249 objects / 298216 bytes in 65ms
+02-29 20:00:00.551: D/dalvikvm(466): GC_FOR_MALLOC freed 2249 objects / 298200 bytes in 56ms
+02-29 20:03:02.002: D/dalvikvm(466): GC_FOR_MALLOC freed 2249 objects / 298208 bytes in 55ms
+02-29 20:08:43.021: W/KeyCharacterMap(466): No keyboard for id 0
+02-29 20:08:43.021: W/KeyCharacterMap(466): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+02-29 20:08:49.601: D/dalvikvm(466): GC_EXPLICIT freed 1815 objects / 223248 bytes in 189ms
+02-29 20:09:03.021: D/dalvikvm(498): GC_FOR_MALLOC freed 5321 objects / 378072 bytes in 61ms
+02-29 20:09:06.331: D/dalvikvm(498): GC_FOR_MALLOC freed 7320 objects / 394184 bytes in 59ms
+02-29 20:09:06.541: D/dalvikvm(498): GC_FOR_MALLOC freed 9611 objects / 610624 bytes in 54ms
+02-29 20:09:06.711: D/dalvikvm(498): GC_FOR_MALLOC freed 4269 objects / 278424 bytes in 56ms
+02-29 20:09:06.901: D/dalvikvm(498): GC_FOR_MALLOC freed 8577 objects / 491600 bytes in 58ms
+02-29 20:09:07.110: D/dalvikvm(498): GC_FOR_MALLOC freed 8234 objects / 634984 bytes in 59ms
+02-29 20:09:07.290: D/dalvikvm(498): GC_FOR_MALLOC freed 6067 objects / 370032 bytes in 59ms
+02-29 20:09:07.420: I/MapActivity(498): Handling network change notification:CONNECTED
+02-29 20:09:07.420: E/MapActivity(498): Couldn't get connection factory client
+02-29 20:09:09.701: D/dalvikvm(498): GC_FOR_MALLOC freed 9520 objects / 731240 bytes in 56ms
+02-29 20:09:12.231: D/dalvikvm(498): GC_FOR_MALLOC freed 2006 objects / 259400 bytes in 51ms
+02-29 20:09:14.872: D/dalvikvm(498): GC_FOR_MALLOC freed 1929 objects / 255792 bytes in 54ms
+02-29 20:09:17.451: D/dalvikvm(498): GC_FOR_MALLOC freed 1928 objects / 255848 bytes in 52ms
+02-29 20:09:20.451: D/dalvikvm(498): GC_FOR_MALLOC freed 2243 objects / 298112 bytes in 59ms
+02-29 20:09:23.521: D/dalvikvm(498): GC_FOR_MALLOC freed 2249 objects / 298208 bytes in 54ms
+02-29 20:09:55.521: D/dalvikvm(498): GC_FOR_MALLOC freed 2250 objects / 298272 bytes in 48ms
+02-29 20:12:20.971: D/dalvikvm(498): GC_FOR_MALLOC freed 2257 objects / 298504 bytes in 57ms
+02-29 20:22:03.351: W/KeyCharacterMap(498): No keyboard for id 0
+02-29 20:22:03.351: W/KeyCharacterMap(498): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+02-29 20:22:09.691: D/dalvikvm(498): GC_EXPLICIT freed 2457 objects / 308120 bytes in 121ms
+02-29 20:23:47.971: W/System.err(498): java.lang.IllegalStateException: Connection pool shut down.
+02-29 20:23:47.971: W/System.err(498): 	at org.apache.http.impl.conn.tsccm.ConnPoolByRoute.getEntryBlocking(ConnPoolByRoute.java:284)
+02-29 20:23:47.971: W/System.err(498): 	at org.apache.http.impl.conn.tsccm.ConnPoolByRoute$1.getPoolEntry(ConnPoolByRoute.java:238)
+02-29 20:23:47.971: W/System.err(498): 	at org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager$1.getConnection(ThreadSafeClientConnManager.java:175)
+02-29 20:23:47.971: W/System.err(498): 	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:325)
+02-29 20:23:47.971: W/System.err(498): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+02-29 20:23:47.971: W/System.err(498): 	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+02-29 20:23:47.971: W/System.err(498): 	at com.google.common.io.android.AndroidHttpClient.execute(Unknown Source)
+02-29 20:23:47.971: W/System.err(498): 	at com.google.common.io.android.GoogleHttpClient.executeWithoutRewriting(Unknown Source)
+02-29 20:23:47.971: W/System.err(498): 	at com.google.common.io.android.GoogleHttpClient.execute(Unknown Source)
+02-29 20:23:47.971: W/System.err(498): 	at com.google.common.io.android.GoogleHttpClient.execute(Unknown Source)
+02-29 20:23:47.971: W/System.err(498): 	at com.google.common.io.android.AndroidHttpConnectionFactory$AndroidGoogleHttpConnection.getResponse(Unknown Source)
+02-29 20:23:47.971: W/System.err(498): 	at com.google.common.io.android.AndroidHttpConnectionFactory$AndroidGoogleHttpConnection.openDataInputStream(Unknown Source)
+02-29 20:23:47.971: W/System.err(498): 	at com.google.googlenav.datarequest.DataRequestDispatcher.serviceRequests(Unknown Source)
+02-29 20:23:47.971: W/System.err(498): 	at com.google.googlenav.datarequest.DataRequestDispatcher$DispatcherServer.run(Unknown Source)
+02-29 20:23:47.971: W/System.err(498): 	at java.lang.Thread.run(Thread.java:1096)
+02-29 20:27:56.731: D/dalvikvm(531): GC_FOR_MALLOC freed 5343 objects / 378992 bytes in 77ms
+02-29 20:28:01.171: D/dalvikvm(531): GC_FOR_MALLOC freed 6899 objects / 374552 bytes in 59ms
+02-29 20:28:01.371: D/dalvikvm(531): GC_FOR_MALLOC freed 11793 objects / 706792 bytes in 54ms
+02-29 20:28:01.531: D/dalvikvm(531): GC_FOR_MALLOC freed 4040 objects / 264000 bytes in 49ms
+02-29 20:28:01.722: D/dalvikvm(531): GC_FOR_MALLOC freed 6610 objects / 408280 bytes in 60ms
+02-29 20:28:01.921: D/dalvikvm(531): GC_FOR_MALLOC freed 11693 objects / 811728 bytes in 54ms
+02-29 20:28:02.102: D/dalvikvm(531): GC_FOR_MALLOC freed 6157 objects / 372008 bytes in 55ms
+02-29 20:28:02.221: I/MapActivity(531): Handling network change notification:CONNECTED
+02-29 20:28:02.221: E/MapActivity(531): Couldn't get connection factory client
+02-29 20:28:03.740: D/dalvikvm(531): GC_EXTERNAL_ALLOC freed 6215 objects / 495800 bytes in 60ms
+02-29 20:28:03.861: D/dalvikvm(531): GC_EXTERNAL_ALLOC freed 111 objects / 5088 bytes in 47ms
+02-29 20:28:04.011: D/dalvikvm(531): GC_EXTERNAL_ALLOC freed 2712 objects / 131440 bytes in 49ms
+02-29 20:28:04.121: D/dalvikvm(531): GC_EXPLICIT freed 139 objects / 24648 bytes in 80ms
+02-29 20:28:07.691: D/dalvikvm(531): GC_EXPLICIT freed 117 objects / 41768 bytes in 55ms
+02-29 20:28:10.001: D/dalvikvm(531): GC_EXPLICIT freed 101 objects / 42192 bytes in 58ms
+02-29 20:28:46.242: W/KeyCharacterMap(531): No keyboard for id 0
+02-29 20:28:46.242: W/KeyCharacterMap(531): Using default keymap: /system/usr/keychars/qwerty.kcm.bin
+02-29 20:29:11.301: D/dalvikvm(564): GC_FOR_MALLOC freed 5373 objects / 380120 bytes in 73ms
+02-29 20:29:15.431: D/dalvikvm(564): GC_FOR_MALLOC freed 6966 objects / 377664 bytes in 83ms
+02-29 20:29:15.641: D/dalvikvm(564): GC_FOR_MALLOC freed 9532 objects / 607408 bytes in 60ms
+02-29 20:29:15.811: D/dalvikvm(564): GC_FOR_MALLOC freed 3992 objects / 260952 bytes in 51ms
+02-29 20:29:16.011: D/dalvikvm(564): GC_FOR_MALLOC freed 8322 objects / 476392 bytes in 56ms
+02-29 20:29:16.211: D/dalvikvm(564): GC_FOR_MALLOC freed 8053 objects / 624688 bytes in 55ms
+02-29 20:29:16.391: D/dalvikvm(564): GC_FOR_MALLOC freed 6140 objects / 371224 bytes in 54ms
+02-29 20:29:16.521: I/MapActivity(564): Handling network change notification:CONNECTED
+02-29 20:29:16.521: E/MapActivity(564): Couldn't get connection factory client
+02-29 20:29:17.961: D/dalvikvm(564): GC_EXTERNAL_ALLOC freed 12637 objects / 823008 bytes in 60ms
+02-29 20:29:18.092: D/dalvikvm(564): GC_EXTERNAL_ALLOC freed 114 objects / 5240 bytes in 56ms
+02-29 20:29:18.201: D/dalvikvm(564): GC_EXTERNAL_ALLOC freed 33 objects / 1352 bytes in 47ms
+02-29 20:29:18.321: D/dalvikvm(564): GC_EXPLICIT freed 579 objects / 46048 bytes in 98ms
+02-29 20:30:23.861: D/dalvikvm(597): GC_FOR_MALLOC freed 5384 objects / 380840 bytes in 63ms
+02-29 20:30:27.101: D/dalvikvm(597): GC_FOR_MALLOC freed 6892 objects / 374704 bytes in 57ms
+02-29 20:30:27.302: D/dalvikvm(597): GC_FOR_MALLOC freed 10086 objects / 633944 bytes in 50ms
+02-29 20:30:27.471: D/dalvikvm(597): GC_FOR_MALLOC freed 3909 objects / 255688 bytes in 53ms
+02-29 20:30:27.671: D/dalvikvm(597): GC_FOR_MALLOC freed 8584 objects / 492096 bytes in 59ms
+02-29 20:30:27.871: D/dalvikvm(597): GC_FOR_MALLOC freed 8205 objects / 635144 bytes in 56ms
+02-29 20:30:28.051: D/dalvikvm(597): GC_FOR_MALLOC freed 6179 objects / 371608 bytes in 56ms
+02-29 20:30:28.142: W/System.err(597): java.io.IOException: Service not Available
+02-29 20:30:28.142: W/System.err(597): 	at android.location.Geocoder.getFromLocationName(Geocoder.java:159)
+02-29 20:30:28.142: W/System.err(597): 	at com.PubMe.MappingActivity.generateGeoPoint(MappingActivity.java:110)
+02-29 20:30:28.151: W/System.err(597): 	at com.PubMe.MappingActivity.onCreate(MappingActivity.java:59)
+02-29 20:30:28.151: W/System.err(597): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)
+02-29 20:30:28.151: W/System.err(597): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2627)
+02-29 20:30:28.151: W/System.err(597): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2679)
+02-29 20:30:28.151: W/System.err(597): 	at android.app.ActivityThread.access$2300(ActivityThread.java:125)
+02-29 20:30:28.151: W/System.err(597): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2033)
+02-29 20:30:28.151: W/System.err(597): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+02-29 20:30:28.151: W/System.err(597): 	at android.os.Looper.loop(Looper.java:123)
+02-29 20:30:28.151: W/System.err(597): 	at android.app.ActivityThread.main(ActivityThread.java:4627)
+02-29 20:30:28.151: W/System.err(597): 	at java.lang.reflect.Method.invokeNative(Native Method)
+02-29 20:30:28.151: W/System.err(597): 	at java.lang.reflect.Method.invoke(Method.java:521)
+02-29 20:30:28.161: W/System.err(597): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868)
+02-29 20:30:28.161: W/System.err(597): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)
+02-29 20:30:28.161: W/System.err(597): 	at dalvik.system.NativeStart.main(Native Method)
+02-29 20:30:28.161: D/AndroidRuntime(597): Shutting down VM
+02-29 20:30:28.161: W/dalvikvm(597): threadid=1: thread exiting with uncaught exception (group=0x4001d800)
+02-29 20:30:28.171: E/AndroidRuntime(597): FATAL EXCEPTION: main
+02-29 20:30:28.171: E/AndroidRuntime(597): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.PubMe/com.PubMe.MappingActivity}: java.lang.NullPointerException
+02-29 20:30:28.171: E/AndroidRuntime(597): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2663)
+02-29 20:30:28.171: E/AndroidRuntime(597): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2679)
+02-29 20:30:28.171: E/AndroidRuntime(597): 	at android.app.ActivityThread.access$2300(ActivityThread.java:125)
+02-29 20:30:28.171: E/AndroidRuntime(597): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2033)
+02-29 20:30:28.171: E/AndroidRuntime(597): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+02-29 20:30:28.171: E/AndroidRuntime(597): 	at android.os.Looper.loop(Looper.java:123)
+02-29 20:30:28.171: E/AndroidRuntime(597): 	at android.app.ActivityThread.main(ActivityThread.java:4627)
+02-29 20:30:28.171: E/AndroidRuntime(597): 	at java.lang.reflect.Method.invokeNative(Native Method)
+02-29 20:30:28.171: E/AndroidRuntime(597): 	at java.lang.reflect.Method.invoke(Method.java:521)
+02-29 20:30:28.171: E/AndroidRuntime(597): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868)
+02-29 20:30:28.171: E/AndroidRuntime(597): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)
+02-29 20:30:28.171: E/AndroidRuntime(597): 	at dalvik.system.NativeStart.main(Native Method)
+02-29 20:30:28.171: E/AndroidRuntime(597): Caused by: java.lang.NullPointerException
+02-29 20:30:28.171: E/AndroidRuntime(597): 	at com.google.android.maps.ItemizedOverlay.populate(ItemizedOverlay.java:312)
+02-29 20:30:28.171: E/AndroidRuntime(597): 	at com.PubMe.ItemizedMapOverlay.addOverlay(ItemizedMapOverlay.java:37)
+02-29 20:30:28.171: E/AndroidRuntime(597): 	at com.PubMe.MappingActivity.pointPlacement(MappingActivity.java:96)
+02-29 20:30:28.171: E/AndroidRuntime(597): 	at com.PubMe.MappingActivity.onCreate(MappingActivity.java:65)
+02-29 20:30:28.171: E/AndroidRuntime(597): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)
+02-29 20:30:28.171: E/AndroidRuntime(597): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2627)
+02-29 20:30:28.171: E/AndroidRuntime(597): 	... 11 more
+02-29 20:30:30.451: I/Process(597): Sending signal. PID: 597 SIG: 9
+02-29 20:31:54.911: D/dalvikvm(628): GC_FOR_MALLOC freed 5410 objects / 381864 bytes in 66ms
+02-29 20:31:58.111: D/dalvikvm(628): GC_FOR_MALLOC freed 6897 objects / 374840 bytes in 63ms
+02-29 20:31:58.311: D/dalvikvm(628): GC_FOR_MALLOC freed 10086 objects / 633992 bytes in 54ms
+02-29 20:31:58.472: D/dalvikvm(628): GC_FOR_MALLOC freed 3911 objects / 255728 bytes in 53ms
+02-29 20:31:58.661: D/dalvikvm(628): GC_FOR_MALLOC freed 8582 objects / 492032 bytes in 54ms
+02-29 20:31:58.871: D/dalvikvm(628): GC_FOR_MALLOC freed 8203 objects / 635016 bytes in 53ms
+02-29 20:31:59.051: D/dalvikvm(628): GC_FOR_MALLOC freed 6176 objects / 371688 bytes in 53ms
+02-29 20:31:59.151: W/System.err(628): java.io.IOException: Service not Available
+02-29 20:31:59.151: W/System.err(628): 	at android.location.Geocoder.getFromLocationName(Geocoder.java:159)
+02-29 20:31:59.161: W/System.err(628): 	at com.PubMe.MappingActivity.generateGeoPoint(MappingActivity.java:110)
+02-29 20:31:59.161: W/System.err(628): 	at com.PubMe.MappingActivity.onCreate(MappingActivity.java:59)
+02-29 20:31:59.161: W/System.err(628): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)
+02-29 20:31:59.161: W/System.err(628): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2627)
+02-29 20:31:59.161: W/System.err(628): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2679)
+02-29 20:31:59.161: W/System.err(628): 	at android.app.ActivityThread.access$2300(ActivityThread.java:125)
+02-29 20:31:59.161: W/System.err(628): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2033)
+02-29 20:31:59.161: W/System.err(628): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+02-29 20:31:59.161: W/System.err(628): 	at android.os.Looper.loop(Looper.java:123)
+02-29 20:31:59.161: W/System.err(628): 	at android.app.ActivityThread.main(ActivityThread.java:4627)
+02-29 20:31:59.161: W/System.err(628): 	at java.lang.reflect.Method.invokeNative(Native Method)
+02-29 20:31:59.161: W/System.err(628): 	at java.lang.reflect.Method.invoke(Method.java:521)
+02-29 20:31:59.161: W/System.err(628): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868)
+02-29 20:31:59.161: W/System.err(628): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)
+02-29 20:31:59.171: W/System.err(628): 	at dalvik.system.NativeStart.main(Native Method)
+02-29 20:31:59.171: D/AndroidRuntime(628): Shutting down VM
+02-29 20:31:59.171: W/dalvikvm(628): threadid=1: thread exiting with uncaught exception (group=0x4001d800)
+02-29 20:31:59.181: E/AndroidRuntime(628): FATAL EXCEPTION: main
+02-29 20:31:59.181: E/AndroidRuntime(628): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.PubMe/com.PubMe.MappingActivity}: java.lang.NullPointerException
+02-29 20:31:59.181: E/AndroidRuntime(628): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2663)
+02-29 20:31:59.181: E/AndroidRuntime(628): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2679)
+02-29 20:31:59.181: E/AndroidRuntime(628): 	at android.app.ActivityThread.access$2300(ActivityThread.java:125)
+02-29 20:31:59.181: E/AndroidRuntime(628): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2033)
+02-29 20:31:59.181: E/AndroidRuntime(628): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+02-29 20:31:59.181: E/AndroidRuntime(628): 	at android.os.Looper.loop(Looper.java:123)
+02-29 20:31:59.181: E/AndroidRuntime(628): 	at android.app.ActivityThread.main(ActivityThread.java:4627)
+02-29 20:31:59.181: E/AndroidRuntime(628): 	at java.lang.reflect.Method.invokeNative(Native Method)
+02-29 20:31:59.181: E/AndroidRuntime(628): 	at java.lang.reflect.Method.invoke(Method.java:521)
+02-29 20:31:59.181: E/AndroidRuntime(628): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:868)
+02-29 20:31:59.181: E/AndroidRuntime(628): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:626)
+02-29 20:31:59.181: E/AndroidRuntime(628): 	at dalvik.system.NativeStart.main(Native Method)
+02-29 20:31:59.181: E/AndroidRuntime(628): Caused by: java.lang.NullPointerException
+02-29 20:31:59.181: E/AndroidRuntime(628): 	at com.google.android.maps.ItemizedOverlay.populate(ItemizedOverlay.java:312)
+02-29 20:31:59.181: E/AndroidRuntime(628): 	at com.PubMe.ItemizedMapOverlay.addOverlay(ItemizedMapOverlay.java:37)
+02-29 20:31:59.181: E/AndroidRuntime(628): 	at com.PubMe.MappingActivity.pointPlacement(MappingActivity.java:96)
+02-29 20:31:59.181: E/AndroidRuntime(628): 	at com.PubMe.MappingActivity.onCreate(MappingActivity.java:65)
+02-29 20:31:59.181: E/AndroidRuntime(628): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)
+02-29 20:31:59.181: E/AndroidRuntime(628): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2627)
+02-29 20:31:59.181: E/AndroidRuntime(628): 	... 11 more

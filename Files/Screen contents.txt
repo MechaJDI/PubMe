@@ -1,0 +1,61 @@
+Login screen
+-email address
+-password
+-login button
+
+	Main screen
+	-rewards button
+	-event listing button
+	-account settings button
+
+		Rewards screen
+		-reward item buttons
+
+			Reward item screen
+			-information
+			-redeem button (confirmation dialog)
+
+				Reward confirmation screen
+				-shipping/delivery information
+
+		Event listing screen
+		-event listing buttons
+
+			Event page
+			-information
+			-map button
+			-publisize button
+			-ticket payment button
+
+				Post page
+				-tweet button
+
+				Map page
+
+				Payment page
+				-confirm purchase button
+	
+					Payment confirmation screen
+					-payment information
+
+		Account settings screen
+		-email field
+		-password field
+		-personal info button
+		-twitter account info button
+
+			Personal info screen
+			-name field
+			-address field
+			-city field
+			-state field
+			-zipcode field
+			-number field
+			-type field
+			-security number field
+			-expiration date field(s)
+			-name on card field
+			-save button
+
+			Twitter account info screen
+			-confirmation code
